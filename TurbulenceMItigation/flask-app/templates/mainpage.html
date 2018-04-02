@@ -1,0 +1,28 @@
+<html>
+<style>
+table {
+    margin: 100px auto;
+}​
+</style>
+<body>
+<center>
+<table>
+<tr>
+    <a href="/livefeed"><button>Live Feed</button></a>
+<form action='/nextpage' enctype="multipart/form-data" method='POST'>
+<br>
+    
+    
+  <td> <input type="file" name="pic"  accept="video/*"></td>
+ <tr> <td>regularization-parameter:</td><td><input type="text" name="reg" ></td></tr>
+    <tr><td>timestep:</td><td><input type="text" name="timestep" ></td></tr>
+  <tr><td>window-size:</td><td><input type="text" name="temp" ></td></tr>
+
+    <tr><td>bregmen-iterations:</td><td><input type="text" name="nbre" ></td></tr>
+  <tr><td>splitting-iterations:</td><td><input type="text" name="splitt" ></td></tr>
+   <tr><td> <input type="submit" value="enhance"></tr>  </table>
+
+</form>
+</center>
+</body>
+</html>
