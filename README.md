@@ -1,4 +1,4 @@
-# AtmosphericTurbulenceMitigationr
+# AtmosphericTurbulenceMitigation
 
 Libraries required
 a)png.h
@@ -6,7 +6,7 @@ b)jpeglib.h
 c)tiffio.h
 
 Steps:
-1) enter the directory AtmosphericTurbulenceMitigation
+1) enter the directory TurbulenceMitigation
 2) run "make" command
 3) copy the ShiftMaoGilles executable file to flask-app folder
 4) run main.py
